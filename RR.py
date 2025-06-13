@@ -8,7 +8,7 @@ class P:
         self.completion_time = 0
         self.turnaround_time = 0
 
-    def __repr__(self):
+    def __str__(self):
         return self.name
 
 p1 = P("p1", 0, 5)
